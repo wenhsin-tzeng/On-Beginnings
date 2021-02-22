@@ -1,0 +1,111 @@
+body {
+  background-color: white;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.nav-bar {
+  text-align: center;
+  word-spacing: 2px;
+  color: #cab7e9;
+  font-size: 36px;
+  margin-top: 40px;
+}
+
+a.homelink:link {
+  color: #5112B6;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a.homelink:visited {
+  color: #5112B6;
+}
+
+a.homelink:hover {
+  color: #cab7e9;
+}
+
+a.otherlinks:link {
+  color: #cab7e9;
+  text-decoration: none;
+}
+
+a.otherlinks:visited {
+  color: #cab7e9;
+}
+
+a.otherlinks:hover {
+  color: #5112B6;
+}
+
+.container {
+  position: relative;
+  margin: 110px 80px 80px 80px;
+}
+
+.box-1 {
+  font-size: 24px;
+  width: 380px;
+  line-height: 32px;
+}
+
+em {
+  font-weight: 600;
+  font-size: 46px;
+  color: #5A15CB;
+}
+
+.box-2 {
+  position: absolute;
+  font-size: 46px;
+  font-weight: 600;
+  width: 1130px;
+  line-height: 57px;
+  right: 0px;
+  color: #5A15CB;
+  margin-top: -35px;
+}
+
+.box-3 {
+  font-size: 24px;
+  width: 380px;
+  line-height: 32px;
+  position: absolute;
+  right: 8px;
+  padding-top: 208px;
+}
+
+.box-4 {
+  position: absolute;
+  font-size: 46px;
+  font-weight: 600;
+  width: 830px;
+  line-height: 57px;
+  right: 0px;
+  color: #5A15CB;
+  margin-top: 460px;
+  padding-bottom: 120px;
+}
+
+.backtotop {
+  position: absolute;
+  right: 12px;
+  margin-top: 57rem;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: #5A15CB;
+  text-align: center;
+}
+
+a.backtotop:link {
+  color: #5A15CB;
+}
+
+a.backtotop:visited {
+  color: #5A15CB;
+}
+
+a.backtotop:hover {
+  background-color: #cab7e9;
+}
