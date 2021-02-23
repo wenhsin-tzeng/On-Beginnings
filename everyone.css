@@ -40,5 +40,38 @@ a.otherlinks:hover {
 
 .container {
   position: relative;
-  margin: 110px 80px 80px 80px;
+  margin: 110px 80px 80px 100px;
+}
+
+.box-1 {
+  font-size: 24px;
+  line-height: 45px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+em {
+  color: #5112B6;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.box-2 {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 25px;
+  padding-top: 1px;
+  padding-bottom: 80px;
+}
+
+span{
+  color: #5112B6;
+}
+
+p.show:hover {
+  color: white;
+  text-shadow: -1px 0 #5112B6, 0 1px #5112B6, 1px 0 #5112B6, 0 -1px #5112B6;
 }

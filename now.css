@@ -1,0 +1,91 @@
+body {
+  background-color: #5112B6;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.nav-bar {
+  text-align: center;
+  word-spacing: 2px;
+  color: #8559cb;
+  font-size: 36px;
+  margin-top: 40px;
+}
+
+a.homelink:link {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a.homelink:visited {
+  color: white;
+}
+
+a.homelink:hover {
+  color: #cab7e9;
+}
+
+a.otherlinks:link {
+  color: #8559cb;
+  text-decoration: none;
+}
+
+a.otherlinks:visited {
+  color: #8559cb;
+}
+
+a.otherlinks:hover {
+  color:#cab7e9;
+}
+
+.container {
+  position: relative;
+  margin: 110px 80px 80px 100px;
+}
+
+.box-1 {
+  font-size: 24px;
+  line-height: 35px;
+  color:#a888da;
+  width: 500px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.box-2 {
+  position: absolute;
+  top: -55px;
+  right: 50px;
+  text-align: center;
+  font-size: 48px;
+  line-height: 58px;
+  color: white;
+  width: 600px;
+  font-weight: 300;
+}
+
+/* strong {
+  font-weight: bold;
+} */
+
+.box-3 {
+  position: absolute;
+  text-align: center;
+  font-size: 64px;
+  color: white;
+  padding-top: 70px;
+  line-height: 80px;
+}
+
+.semicolon {
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 10px;
+}
+
+.middle-text {
+  font-size: 40px;
+  line-height: 55px;
+}
