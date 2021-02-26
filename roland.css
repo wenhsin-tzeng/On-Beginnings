@@ -1,0 +1,44 @@
+body {
+  background-color: #5112B6;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.nav-bar {
+  text-align: center;
+  word-spacing: 2px;
+  color: #8559cb;
+  font-size: 36px;
+  margin-top: 40px;
+}
+
+a.homelink:link {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a.homelink:visited {
+  color: white;
+}
+
+a.homelink:hover {
+  color: #cab7e9;
+}
+
+a.otherlinks:link {
+  color: #8559cb;
+  text-decoration: none;
+}
+
+a.otherlinks:visited {
+  color: #8559cb;
+}
+
+a.otherlinks:hover {
+  color:#cab7e9;
+}
+
+.container {
+  position: relative;
+  margin: 110px 80px 80px 100px;
+}
