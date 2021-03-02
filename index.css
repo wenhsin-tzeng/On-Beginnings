@@ -60,3 +60,25 @@ a:hover {
     background-color: #5112B6;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: #5112B6;
+  }
+  .line {
+    height: 0px;
+    width: 0px;
+    color: #5112B6;
+  }
+  .container {
+    text-align: center;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    display: inline-table;
+    word-spacing: 6px;
+  }
+}
