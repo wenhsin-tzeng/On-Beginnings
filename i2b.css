@@ -1,24 +1,24 @@
 body {
-  background-color: white;
+  background-color: #5112B6;
   font-family: 'Cormorant Garamond', serif;
 }
 
 .nav-bar {
   text-align: center;
   word-spacing: 2px;
-  color: #cab7e9;
+  color: #8559cb;
   font-size: 36px;
   margin-top: 40px;
 }
 
 a.homelink:link {
-  color: #5112B6;
+  color: white;
   text-decoration: none;
   font-weight: 700;
 }
 
 a.homelink:visited {
-  color: #5112B6;
+  color: white;
 }
 
 a.homelink:hover {
@@ -26,17 +26,18 @@ a.homelink:hover {
 }
 
 a.otherlinks:link {
-  color: #cab7e9;
+  color: #8559cb;
   text-decoration: none;
 }
 
 a.otherlinks:visited {
-  color: #cab7e9;
+  color: #8559cb;
 }
 
 a.otherlinks:hover {
-  color: #5112B6;
+  color:#cab7e9;
 }
+
 
 .container {
   /* position: relative; */
@@ -68,13 +69,44 @@ a.otherlinks:hover {
   color: white;
 }
 
-.button-position {
+.container-2 {
   position: relative;
-  margin-left: 520px;
-  margin-top: 400px;
-  height: 400px;
-  width: 400px;
-  background-color: #5112B6;
-  border-radius: 200px;
-  border-style: none;
+  /* text-align: center; */
+  margin-top: 900px;
+  font-size: 24px;
+  color: white;
+  margin-left: 530px;
+}
+
+.text-animate {
+  animation-name: moveleft;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes moveleft {
+  from {
+    margin-left: 0px;
+  }
+  to {
+    margin-left: 100px;
+  }
+}
+
+.text-animate1 {
+  animation-name: moveleft1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 2s;
+}
+
+@keyframes moveleft1 {
+  from {
+    margin-left: 0px;
+  }
+  to {
+    margin-left: -100px;
+  }
 }

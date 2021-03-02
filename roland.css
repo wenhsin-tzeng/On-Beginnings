@@ -41,4 +41,56 @@ a.otherlinks:hover {
 .container {
   position: relative;
   margin: 110px 80px 80px 100px;
+  color: white;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+strong {
+  font-size: 36px;
+  /* font-style: italic; */
+}
+
+strong:hover {
+  text-transform: uppercase;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.box-1 {
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.changecolor {
+  font-size: 48px;
+  color: #5112B6;
+}
+
+.changecolor:hover {
+  font-size: 48px;
+  font-style: italic;
+  animation-name: changetextcolor;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes changetextcolor {
+  from {
+    color: #5112B6;
+    font-size: 18px;
+
+  }
+  to {
+    color: white;
+    font-size: 48px;
+
+  }
 }

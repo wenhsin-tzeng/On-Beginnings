@@ -40,5 +40,68 @@ a.otherlinks:hover {
 
 .container {
   position: relative;
-  margin: 110px 80px 80px 100px;
+  margin: 110px 200px 80px 200px;
+}
+
+.book-left {
+  position: relative;
+  height: 410px;
+  width: 500px;
+  background-color: #5112B6;
+  color: white;
+}
+
+.book-left-text {
+  padding-top: 25px;
+  padding-left: 40px;
+  padding-right: 5px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.book-right {
+  position: relative;
+  height: 404px;
+  width: 500px;
+  border-width: 3px;
+  border-color: #5112B6;
+  border-style: solid;
+  margin-left: 500px;
+  margin-top: -410px;
+}
+
+.book-right-text {
+  padding-top: 18px;
+  padding-left: 42px;
+  padding-right: 40px;
+  font-size: 26px;
+  line-height: 32px;
+  color: #5112B6;
+  animation-name: showcolor;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+
+@keyframes showcolor {
+  from {
+    color: white;
+  }
+  to {
+    color: #5112B6;
+  }
+}
+
+.box-1 {
+  margin-top: 100px;
+  color: #5112B6;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 57px;
+}
+
+.text-1 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
 }
